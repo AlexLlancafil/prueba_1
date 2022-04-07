@@ -1,9 +1,10 @@
 #Fondo {
     background-image: url(imagenes.jpg/Fondoplantita.jpg);
     background-position: center center;
-    height: 1800px;
+    height: 900px;
     background-attachment: fixed;
     background-size: cover;
+    justify-content: center;
 }
 
 #footer {
