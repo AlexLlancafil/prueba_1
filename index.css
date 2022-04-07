@@ -174,7 +174,7 @@
 #Fondo2 {
     background-image: url(imagenes.jpg/Fondoplantita.jpg);
     background-position: center center;
-    height: 800px;
+    height: 600px;
     background-attachment: fixed;
     background-size: cover;
 }

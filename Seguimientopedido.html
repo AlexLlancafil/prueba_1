@@ -22,34 +22,27 @@
                 <div class="columna columna-50 empujar-50">
                     <h1>Ingresa tus datos de tu pedido para dar seguimiento</h1>
 
-                    <form action="" method="post">
-                        <div class="form-block">
-                            <input type="text" name="Nombre" class="
-                            form-control" placeholder="Nombre">
+                    <form>
+                        <div class="mb-3">
+                          <label for="Numero pedido"class="form-label">Numero de pedido</label>
+                          <input type="Numero pedido" class="form-control" id="Numero pedido" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">Solo ingresar numeros</div>
                         </div>
-                        <div class="form-block">
-                            <input type="Apellido" name="Apellido" class="
-                            form-control" placeholder="Apellido">
+                        <div class="mb-3">
+                          <label for="RUT"class="form-label">RUT</label>
+                          <input type="RUT" class="form-control" id="RUT" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">Solo ingresar numeros</div>
                         </div>
-                        <div class="form-block">
-                            <input type="Direccion" name="Direccion" class="
-                            form-control" placeholder="Direccion">
+                        <div class="mb-3">
+                          <label for="Nombre del solicitante" class="form-label">Nombre del solicitante</label>
+                          <input type="Nombre del solicitante" class="form-control" id="Nombre del solicitante">
                         </div>
-                        <div class="form-block">
-                            <input type="Numero de contacto" name="Numero de contacto" class="
-                            form-control" placeholder="Numero de contacto">
+                        <div class="mb-3 form-check">
+                          <input type="checkbox" class="form-check-input" id="No soy un robot">
+                          <label class="form-check-label" for="No soy un robot">No soy un robot</label>
                         </div>
-                        <div class="form-block">
-                            <input type="email" name="Email" class="
-                            form-control" placeholder="Email">
-                        </div>
-                        <div class="form-block">
-                            <textarea name="mensaje" placeholder="Mensaje"></textarea>
-                        </div>
-                        <div class="form-block">
-                            <input type="submit" value="Emviar">
-                        </div>
-                    </form>
+                        <button type="Enviar" class="btn btn-primary">Enviar</button>
+                      </form>
                 </div>
             </div>
         </div>
