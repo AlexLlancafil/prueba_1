@@ -186,3 +186,7 @@ a.button {
     text-decoration: none;
     color: initial;
 }
+
+.row {
+    padding-left: 200px;
+}
