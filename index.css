@@ -188,5 +188,9 @@ a.button {
 }
 
 .row {
-    padding-left: 200px;
+    padding-left: 250px;
+    padding: auto;
+}
+#button .volver{
+    background-color: chartreuse
 }
